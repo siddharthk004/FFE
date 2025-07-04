@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import { IoSearchSharp } from "react-icons/io5";
-import { CiHeart } from "react-icons/ci";
-import { MdOutlineShoppingCart } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
-import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
+import { CiHeart } from "react-icons/ci";
+import { IoSearchSharp } from "react-icons/io5";
+import { MdOutlineShoppingCart } from "react-icons/md";
 import logo from "../../assets/logo1.png";
 
 function Navbar() {
@@ -42,6 +41,8 @@ function Navbar() {
           <div className="hidden md:block">
             <CiHeart />
           </div>
+
+          
           <div className="hidden md:block">
             <MdOutlineShoppingCart />
           </div>
